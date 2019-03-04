@@ -2,7 +2,7 @@ const expect = require('expect')
 const fs = require('fs')
 const path = require('path')
 const createParser = require('../lib/n3').parse
-const { readDataset } = require('helpers')
+const { readDataset } = require('./helpers')
 
 describe('n3', () => {
   describe('parse', () => {
