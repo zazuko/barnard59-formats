@@ -48,6 +48,6 @@
     "collectCoverageFrom": [
       "lib/**"
     ],
-    "setupTestFrameworkScriptFile": "jest-extended"
+    "setupFilesAfterEnv": ["jest-extended"]
   }
 }
